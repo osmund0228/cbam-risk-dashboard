@@ -24,10 +24,13 @@ st.set_page_config(
 
 # ── Data ─────────────────────────────────────────────────────────────────
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/CBAM_Final_Risk_Analysis_2026.csv", dtype={"hs6": str})
-    master = pd.read_csv("data/C123_master_table.csv", dtype={"hs6": str})
+    df = pd.read_csv(os.path.join(BASE_DIR, "data/CBAM_Final_Risk_Analysis_2026.csv"), dtype={"hs6": str})
+    master = pd.read_csv(os.path.join(BASE_DIR, "data/C123_master_table.csv"), dtype={"hs6": str})
     latest = master[master["year"] == master["year"].max()]
     ci_map = (
         latest[["hs6", "ci_kor"]]
@@ -126,7 +129,7 @@ def get_eu_vol_default(hs6):
 
 # ── Header ───────────────────────────────────────────────────────────────
 
-LOGO = "data/Emblem_of_the_Korea_Customs_Service.svg"
+LOGO = os.path.join(BASE_DIR, "data/Emblem_of_the_Korea_Customs_Service.svg")
 col_logo, col_title = st.columns([1, 11])
 with col_logo:
     if os.path.exists(LOGO):
