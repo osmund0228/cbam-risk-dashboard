@@ -27,8 +27,7 @@ streamlit run app.py
 
 ## 배포
 
-`dashboard/CLAUDE.md`에 정리된 대로, 이 레포를 GitHub에 올린 뒤 Streamlit Community Cloud와
-연동하면 라이브 URL로 배포할 수 있습니다. (배포 완료 시 이 자리에 URL 추가 예정)
+https://cbam-risk-dashboard-d6qljdz88xcwta3zwg2yhi.streamlit.app/
 
 ## 포함하지 않은 것
 
