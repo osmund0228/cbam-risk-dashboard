@@ -25,7 +25,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 배포
+## 대시보드 배포
 
 https://cbam-risk-dashboard-d6qljdz88xcwta3zwg2yhi.streamlit.app/
 
