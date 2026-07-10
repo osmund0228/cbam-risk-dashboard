@@ -14,9 +14,9 @@ EU CBAM(탄소국경조정제도) 시행에 대비해, 철강·알루미늄 등 
 
 ## 데모 및 분석보고서
 
-- 배포 링크: https://cbam-risk-dashboard-d6qljdz88xcwta3zwg2yhi.streamlit.app/
-- 시연 영상: https://youtu.be/Ee0iQxsjiSw
-- 분석보고서: `docs/CBAM_보고서.pdf`
+- 데모 링크: https://cbam-risk-dashboard-d6qljdz88xcwta3zwg2yhi.streamlit.app/
+- 데모 시연 영상: https://youtu.be/Ee0iQxsjiSw
+- 분석 보고서: `docs/CBAM_보고서.pdf`
 
 ## 주요 내용 및 성과
 
