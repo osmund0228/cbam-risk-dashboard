@@ -12,11 +12,11 @@ EU CBAM(탄소국경조정제도) 시행에 대비해, 철강·알루미늄 등 
 
 팀원 (비용 시뮬레이터 기획 및 개발)
 
-## 데모
+## 데모 및 분석보고서
 
 - 배포: https://cbam-risk-dashboard-d6qljdz88xcwta3zwg2yhi.streamlit.app/
 - 시연 영상: https://youtu.be/Ee0iQxsjiSw
-- 보고서: `docs/CBAM_보고서.pdf`
+- 분석보고서: `docs/CBAM_보고서.pdf`
 
 ## 주요 내용 및 성과
 
